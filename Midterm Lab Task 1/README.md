@@ -12,9 +12,9 @@ This portfolio highlights the application of data normalization and cleaning in 
 - Performed 2NF
 - Mapped the normalization as a physical data model
 ## Step 3. Here's the screenshot of my output before i started data cnearing (see screenshot)
-![screenshot](images/one.JPG)
+![screenshot](images/b.png)
 ## Step 4. Here's the screenshot of my output after I started data cleaning (see screenshot)
-![screenshot](images/one.JPG)
+![screenshot](images/a.png)
 ## Here is the Physical Data Model
-
+![screenshot](images/TURLA_Midterms%20Lab%201%20(ERD).png)
 
