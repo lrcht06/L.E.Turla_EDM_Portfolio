@@ -7,5 +7,5 @@ Liyan Erich N. Turla is a first-year Bachelor of Science in Information Systems 
 - Senior High School: Graduated at Angeles City Science High School (ACSci) with a strand of Science, Technology, Engineerin, and Mathematics (STEM)
 - Junior High School: Telabastagan Integrated School (TIS)
 ## My Projects:
-- Midterm Lab Task 1: [Data Cleaning and Preparation Using EXCEL](Midterm%20Task%201/README.md)
-- Midterm Lab Task 2: [Data Cleaning and Preparation Using POWER QUERY](Midterm%20Task%201/README.md)
+- Midterm Lab Task 1: [Data Cleaning and Preparation Using EXCEL](Midterm%20Lab%20Task%201/README.md)
+- Midterm Lab Task 2: [Data Cleaning and Preparation Using POWER QUERY](Midterm%20Lab%20Task%201/README.md)
