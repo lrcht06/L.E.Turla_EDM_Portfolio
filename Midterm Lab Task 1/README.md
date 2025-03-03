@@ -1,16 +1,16 @@
 # Midterm Lab Task 1
 This portfolio highlights the application of data normalization and cleaning in a transactional database. The dataset includes several related tables, each structured to optimize data organization and remove redundancy.
 ## STEP 1. Data Cleaning Process
-- Load the raw file
-- Fix collumns width and height
-- TRIM words and spaces
-- Remove Null values
-- Remove Duplicates
+- Load the raw dataset
+- Adjust column width and height
+- Trim extra spaces and inconsistencies
+- Remove null values and fix "inf" errors
+- Eliminate duplicate records
 ## STEP 2. Normalization
-- Performed 1NF
-- Perform Tablet spilt using 2NF
-- Performed 2NF
-- Mapped the normalization as a physical data model
+- Apply First Normal Form (1NF)
+- Split tables according to Second Normal Form (2NF)
+- Implement Third Normal Form (3NF)
+- Structure data into a relational model
 ## Step 3. Here's the screenshot of my output before i started data cleaning (see screenshot)
 ![screenshot](images/b.png)
 ## Step 4. Here's the screenshot of my output after I started data cleaning (see screenshot)
