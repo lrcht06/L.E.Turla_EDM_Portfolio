@@ -1,5 +1,5 @@
 ## EDM-Portfolio - Liyan Erich Turla
-This portfolio will contain my Enterprise Data Management Lab Exercises
+This portfolio features my Enterprise Data Management Lab Exercises, focusing on data cleaning, normalization, and database structuring. It highlights practical applications in managing transactional datasets, ensuring data integrity, and optimizing storage and retrieval.
 ## About Me
 Liyan Erich N. Turla is a first-year Bachelor of Science in Information Systems student at City College of Angeles. She is passionate about exploring various fields to expand her skills and knowledge. With a strong enthusiasm for learning, she enjoys meeting new people, embracing new experiences, and taking on challenges that foster personal and professional growth. She is dedicated to giving her best in every endeavor and utilizes all available resources to achieve excellence, especially in the field of information technology. With a strong work ethic and determination, she aspires to excel in the IT industry and contribute meaningful advancements to the field.
 ## Education
