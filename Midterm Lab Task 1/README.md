@@ -11,7 +11,7 @@ This portfolio highlights the application of data normalization and cleaning in 
 - Perform Tablet spilt using 2NF
 - Performed 2NF
 - Mapped the normalization as a physical data model
-## Step 3. Here's the screenshot of my output before i started data cnearing (see screenshot)
+## Step 3. Here's the screenshot of my output before i started data cleaning (see screenshot)
 ![screenshot](images/b.png)
 ## Step 4. Here's the screenshot of my output after I started data cleaning (see screenshot)
 ![screenshot](images/a.png)
