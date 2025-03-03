@@ -11,9 +11,9 @@ This portfolio highlights the application of data normalization and cleaning in 
 - Split tables according to Second Normal Form (2NF)
 - Implement Third Normal Form (3NF)
 - Structure data into a relational model
-## Step 3. Here's the screenshot of my output before i started data cleaning (see screenshot)
+## Step 3. Here is the screenshot of my output before i started data cleaning (see screenshot)
 ![screenshot](images/b.png)
-## Step 4. Here's the screenshot of my output after I started data cleaning (see screenshot)
+## Step 4. Here is the screenshot of my output after I started data cleaning (see screenshot)
 ![screenshot](images/a.png)
 ## Here is the Physical Data Model
 ![screenshot](images/TURLA_Midterms%20Lab%201%20(ERD).png)
