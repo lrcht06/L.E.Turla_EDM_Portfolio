@@ -14,7 +14,7 @@ This portfolio highlights the application of data normalization and cleaning in 
 ## Step 3. Here is the screenshot of my output before i started data cleaning (see screenshot)
 ![screenshot](images/before.png)
 ## Step 4. Here is the screenshot of my output after I started data cleaning (see screenshot)
-![screenshot](images/after.png)
+![screenshot](images/after%20(normalized).png)
 ## Here is the Physical Data Model
-![screenshot](images/L.Turla%20(ERD).png)
+![screenshot](images/L.Turla-ERD.png)
 
