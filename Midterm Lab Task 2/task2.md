@@ -26,13 +26,13 @@ Structure data into a relational model
 ![screenshot](images/Turla%20(AES).png)
 
 ## STEP 6. Final Structured Tables
-- Sales By Role Type dup
+### Sales By Role Type dup
 ![screenshot](images/Turla%20(SBRTd).png)
-- Sales By Role Size ref
+### Sales By Role Size ref
 ![screenshot](images/Turla%20(SBRSr).png)
-- states
+### states
 ![screenshot](images/Turla%20(s).png)
-- Sales By States
+### Sales By States
 ![screenshot](images/Turla%20(SBSr).png)
 
 # Here is the Physical Data Model
