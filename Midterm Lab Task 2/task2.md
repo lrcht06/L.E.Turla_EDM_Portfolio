@@ -35,5 +35,5 @@ Structure data into a relational model
 ### Sales By States ref
 ![screenshot](images/Turla%20(SBSr).png)
 
-# Here is the Queries' Dependencies and References
+## Here is the Queries' Dependencies and References
 ![screenshot](images/Turla%20(QD).png)
