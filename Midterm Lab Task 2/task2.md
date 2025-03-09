@@ -17,7 +17,7 @@ Implement Third Normal Form (3NF)
 Structure data into a relational model
 
 ## STEP 3. Here is the screenshot of my output before I started data cleaning (see screenshot)
-![screenshot](images/before.png)
+![screenshot](images/Turla%20(UD).png)
 
 ## STEP 4. Here is the screenshot of my output after I started data cleaning (see screenshot)
 ![screenshot](images/Turla%20(CD).png)
