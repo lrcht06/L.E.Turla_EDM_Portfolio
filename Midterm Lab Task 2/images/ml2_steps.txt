@@ -1,0 +1,50 @@
+let
+    Source = Excel.Workbook(File.Contents("C:\Users\turla\Downloads\Uncleaned_DS_jobs.xlsx"), null, true),
+    Uncleaned_DS_jobs_Sheet = Source{[Item="Uncleaned_DS_jobs",Kind="Sheet"]}[Data],
+    #"Promoted Headers" = Table.PromoteHeaders(Uncleaned_DS_jobs_Sheet, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"index", Int64.Type}, {"Job Title", type text}, {"Salary Estimate", type text}, {"Job Description", type text}, {"Rating", type number}, {"Company Name", type text}, {"Location", type text}, {"Headquarters", type any}, {"Size", type any}, {"Founded", Int64.Type}, {"Type of ownership", type any}, {"Industry", type any}, {"Sector", type any}, {"Revenue", type any}, {"Competitors", type any}}),
+    #"Extracted Text Before Delimiter" = Table.TransformColumns(#"Changed Type", {{"Salary Estimate", each Text.BeforeDelimiter(_, "("), type text}}),
+    #"Inserted Text Between Delimiters" = Table.AddColumn(#"Extracted Text Before Delimiter", "Text Between Delimiters", each Text.BetweenDelimiters([Salary Estimate], "$", "K"), type text),
+    #"Inserted Text Between Delimiters1" = Table.AddColumn(#"Inserted Text Between Delimiters", "Text Between Delimiters.1", each Text.BetweenDelimiters([Salary Estimate], "$", "K", 1, 0), type text),
+    #"Renamed Columns" = Table.RenameColumns(#"Inserted Text Between Delimiters1",{{"Text Between Delimiters", "Min Sal"}, {"Text Between Delimiters.1", "Max Sal"}}),
+    #"Added Custom" = Table.AddColumn(#"Renamed Columns", "Role Type", each if Text.Contains([Job Title], "Data Scientist") then
+"Data Scientist"
+else if Text.Contains([Job Title], "Data Analyst") then
+"Data Analyst"
+else if Text.Contains([Job Title], "Data Engineer") then
+"Data Engineer"
+
+else if Text.Contains([Job Title], "Machine Learning") then
+"Machine Learning Engineer"
+else
+"other"),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Added Custom",{{"Role Type", type text}}),
+    #"Added Custom1" = Table.AddColumn(#"Changed Type1", "Custom", each if [Location]= "New Jersey" then ", NJ"
+else if [Location] = "Remote" then ", other"
+else if [Location]= "United States" then ", other"
+else if [Location]= "Texas" then ", TX"
+else if [Location]= "Patuxent" then ", MA"
+else if [Location]= "California" then ", CA"
+else if [Location]= "Utah" then ", UT"
+else [Location]),
+    #"Renamed Columns1" = Table.RenameColumns(#"Added Custom1",{{"Custom", "Location Correction"}}),
+    #"Split Column by Delimiter" = Table.SplitColumn(#"Renamed Columns1", "Location Correction", Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv), {"Location Correction.1", "Location Correction.2"}),
+    #"Changed Type2" = Table.TransformColumnTypes(#"Split Column by Delimiter",{{"Location Correction.1", type text}, {"Location Correction.2", type text}}),
+    #"Replaced Value" = Table.ReplaceValue(#"Changed Type2","Anne Arundel","MA",Replacer.ReplaceText,{"Location Correction.2"}),
+    #"Renamed Columns2" = Table.RenameColumns(#"Replaced Value",{{"Location Correction.2", "State Abbreviaitons"}}),
+    #"Inserted Text Before Delimiter" = Table.AddColumn(#"Renamed Columns2", "Text Before Delimiter", each Text.BeforeDelimiter([Size], " "), type text),
+    #"Inserted Text Between Delimiters2" = Table.AddColumn(#"Inserted Text Before Delimiter", "Text Between Delimiters", each Text.BetweenDelimiters([Size], " ", " ", 1, 0), type text),
+    #"Renamed Columns3" = Table.RenameColumns(#"Inserted Text Between Delimiters2",{{"Text Before Delimiter", "Min Company Size"}, {"Text Between Delimiters", "Max Company Size"}}),
+    #"Filtered Rows" = Table.SelectRows(#"Renamed Columns3", each ([Competitors] <> -1)),
+    #"Filtered Rows1" = Table.SelectRows(#"Filtered Rows", each ([Revenue] <> "Unknown / Non-Applicable") and ([Industry] <> -1)),
+    #"Split Column by Delimiter1" = Table.SplitColumn(#"Filtered Rows1", "Company Name", Splitter.SplitTextByDelimiter("#(lf)", QuoteStyle.Csv), {"Company Name.1", "Company Name.2"}),
+    #"Changed Type3" = Table.TransformColumnTypes(#"Split Column by Delimiter1",{{"Company Name.1", type text}, {"Company Name.2", type number}}),
+    #"Removed Columns" = Table.RemoveColumns(#"Changed Type3",{"Company Name.2", "Job Description"}),
+    #"Merged Queries" = Table.FuzzyNestedJoin(#"Removed Columns", {"State Abbreviaitons"}, states, {"2-letter USPS"}, "states", JoinKind.LeftOuter, [IgnoreCase=true, IgnoreSpace=true]),
+    #"Expanded states" = Table.ExpandTableColumn(#"Merged Queries", "states", {"Full Name", "2-letter USPS"}, {"states.Full Name", "states.2-letter USPS"}),
+    #"Renamed Columns4" = Table.RenameColumns(#"Expanded states",{{"states.Full Name", "State Full Name"}}),
+    #"Filtered Rows2" = Table.SelectRows(#"Renamed Columns4", each ([State Full Name] <> null)),
+    #"Trimmed Text" = Table.TransformColumns(#"Filtered Rows2",{{"State Abbreviaitons", Text.Trim, type text}}),
+    #"Filtered Rows3" = Table.SelectRows(#"Trimmed Text", each ([Max Company Size] <> ""))
+in
+    #"Filtered Rows3"
