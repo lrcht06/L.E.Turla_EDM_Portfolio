@@ -17,16 +17,19 @@ Implement Third Normal Form (3NF)
 Structure data into a relational model
 
 ## STEP 3. Here is the screenshot of my output before I started data cleaning (see screenshot)
-screenshot
+![screenshot](images/before.png)
 
 ## STEP 4. Here is the screenshot of my output after I started data cleaning (see screenshot)
-screenshot
+![screenshot](images/Turla%20(CD).png)
 
-## STEP 5. Final Structured Tables
-- "Sal By State ref" (Salary averages per state)
-- "Sal By Role Type dup" (Salary averages per role type)
-- "Sal By Role Size ref" (Salary averages per company size)
-- "States" (State abbreviations and full names)
+## STEP 5. Here is the screenshot of the advanced editor code of power quesry steps (see screenshot)
+![screenshot](images/Turla%20(AES).png)
+
+## STEP 6. Final Structured Tables
+- ![screenshot](images/Turla%20(SBRTd).png)
+- ![screenshot](images/Turla%20(SBRSr).png)
+- ![screenshot](images/Turla%20(s).png)
+- ![screenshot](images/Turla%20(SBSr).png)
 
 # Here is the Physical Data Model
-screenshot
+ ![screenshot](images/Turla%20(QD).png)
