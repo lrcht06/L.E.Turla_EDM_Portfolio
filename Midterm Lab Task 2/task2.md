@@ -22,7 +22,7 @@ Structure data into a relational model
 ## STEP 4. Here is the screenshot of my output after I started data cleaning (see screenshot)
 ![screenshot](images/Turla%20(CD).png)
 
-## STEP 5. Here is the screenshot of the advanced editor code of power quesry steps (see screenshot)
+## STEP 5. Here is the screenshot of the advanced editor code of power query steps (see screenshot)
 ![screenshot](images/Turla%20(AES).png)
 
 ## STEP 6. Final Structured Tables
@@ -35,5 +35,5 @@ Structure data into a relational model
 ### Sales By States
 ![screenshot](images/Turla%20(SBSr).png)
 
-# Here is the Physical Data Model
+# Here is the Queries' Dependencies and References
 ![screenshot](images/Turla%20(QD).png)
