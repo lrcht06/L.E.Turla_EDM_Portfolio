@@ -32,7 +32,7 @@ Structure data into a relational model
 ![screenshot](images/Turla%20(SBRSr).png)
 ### states
 ![screenshot](images/Turla%20(s).png)
-### Sales By States
+### Sales By States ref
 ![screenshot](images/Turla%20(SBSr).png)
 
 # Here is the Queries' Dependencies and References
