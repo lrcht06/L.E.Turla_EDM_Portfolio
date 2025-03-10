@@ -12,9 +12,9 @@ This portfolio highlights the application of data normalization and cleaning in 
 - Implement Third Normal Form (3NF)
 - Structure data into a relational model
 ## Step 3. Here is the screenshot of my output before i started data cleaning (see screenshot)
-![screenshot](images/before.png)
+![screenshot](images/Turla%20(BC).png)
 ## Step 4. Here is the screenshot of my output after I started data cleaning (see screenshot)
-![screenshot](images/after%20(normalized).png)
+![screenshot](images/Turla%20(AC).png)
 ## Here is the Physical Data Model
-![screenshot](images/L.Turla-ERD.png)
+![screenshot](images/Turla%20(ERD).png)
 
