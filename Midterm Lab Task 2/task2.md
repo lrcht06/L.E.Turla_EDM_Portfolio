@@ -31,13 +31,13 @@ This portfolio highlights the application of data cleaning and transformation in
 ![screenshot](images/Turla%20(AES).png)
 
 ## STEP 6. Final Structured Tables
-### Sales By Role Type dup
+- ### Sales By Role Type dup
 ![screenshot](images/Turla%20(SBRTd).png)
-### Sales By Role Size ref
+- ### Sales By Role Size ref
 ![screenshot](images/Turla%20(SBRSr).png)
-### states
+- ### states
 ![screenshot](images/Turla%20(s).png)
-### Sales By States ref
+- ### Sales By States ref
 ![screenshot](images/Turla%20(SBSr).png)
 
 ## Here is the Queries' Dependencies and References
