@@ -1,7 +1,7 @@
 # Midterm Lab Task 2
 This portfolio highlights the application of data cleaning and transformation in a transactional database using Power Query. The dataset includes several related tables, each structured to optimize data organization and remove redundancy.
 
-## STEP 1. Data Cleaning Using Power Query
+## STEP 1. Data Cleaning Process
 - Load the raw dataset into Power Query and duplicate it for reference.
 - Clean the Salary Estimate column by extracting only numeric values.
 - Create two new columns: Min Sal and Max Sal, based on extracted salary data.
@@ -12,7 +12,7 @@ This portfolio highlights the application of data cleaning and transformation in
 - Clean company names by removing extra details like ratings.
 - Remove unnecessary columns such as job descriptions to refine the dataset.
 
-## STEP 2. Data Transformation in Power Query
+## STEP 2. Transformation
 - Create a duplicate dataset for role-based salary analysis and select relevant columns.
 - Convert salary values to currency format and adjust them for consistency.
 - Group by Role Type to calculate average minimum and maximum salaries.
