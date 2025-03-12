@@ -34,11 +34,11 @@ This portfolio highlights the application of data cleaning and transformation in
 - ### Sales By Role Type dup
 ![screenshot](images/Turla%20(SBRTd).png)
 - ### Sales By Role Size ref
-![screenshot](images/Turla%20(SBRSr).png)
+![screenshot](images/Turla%20(SBSizer).png)
 - ### states
 ![screenshot](images/Turla%20(s).png)
 - ### Sales By States ref
-![screenshot](images/Turla%20(SBSr).png)
+![screenshot](images/Turla%20(SBStater).png)
 
 ## Here is the Queries' Dependencies and References
 ![screenshot](images/Turla%20(QD).png)
