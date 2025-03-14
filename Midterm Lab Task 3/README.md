@@ -22,7 +22,7 @@ Generate Pivot Tables for key insights:
 - Apply professional and visually appealing color schemes
 - Ensure all necessary visuals and reports are included
 
-## STEP 4. Here are the screenshots before I started creating pivot tables and charts (see screenshot)
+## STEP 4. Here is the screenshots before I started creating pivot tables and charts (see screenshot)
 ![screenshot](images/Turla%20(BD).png)
 
 ## STEP 5. Here are the screenshots after I started creating pivot tables and charts (see screenshot)
