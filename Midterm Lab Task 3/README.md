@@ -23,18 +23,18 @@ Generate Pivot Tables for key insights:
 - Ensure all necessary visuals and reports are included
 
 ## STEP 4. Here are the screenshots before I started creating pivot tables and charts (see screenshot)
-![screenshot](images/Turla%20(SBRTd).png)
+![screenshot](images/Turla%20(BD).png)
 
 ## STEP 5. Here are the screenshots after I started creating pivot tables and charts (see screenshot)
 - ### Pivot Table setup for each analysis
-![screenshot](images/Turla%20(SBRTd).png)
+![screenshot](images/Turla%20(PT).png)
 - ### Interactive slicers and filters
-![screenshot](images/Turla%20(SBRTd).png)
+![screenshot](images/Turla%20(SF).png)
 - ### Map visualization
-![screenshot](images/Turla%20(SBRTd).png)
+![screenshot](images/Turla%20(M).png)
 
 ## Here is the Final Dashboard Output 
-![screenshot](images/Turla%20(SBRTd).png)
+![screenshot](images/Turla%20(D).png)
 
 
 
