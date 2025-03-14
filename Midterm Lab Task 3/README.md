@@ -22,13 +22,19 @@ Generate Pivot Tables for key insights:
 - Apply professional and visually appealing color schemes
 - Ensure all necessary visuals and reports are included
 
-## STEP 4. Finalizing and Documenting the Output
-Capture screenshots of:
-- Pivot Table setup for each analysis
-- Completed Dashboard with all insights
-- Interactive slicers and filters
-- Map visualization 
+## STEP 4. Here are the screenshots before I started creating pivot tables and charts (see screenshot)
+![screenshot](images/Turla%20(SBRTd).png)
 
-Here is the final Dashboard output (see screenshot)
-screenshot
+## STEP 5. Here are the screenshots after I started creating pivot tables and charts (see screenshot)
+- ### Pivot Table setup for each analysis
+![screenshot](images/Turla%20(SBRTd).png)
+- ### Interactive slicers and filters
+![screenshot](images/Turla%20(SBRTd).png)
+- ### Map visualization
+![screenshot](images/Turla%20(SBRTd).png)
+
+## Here is the Final Dashboard Output 
+![screenshot](images/Turla%20(SBRTd).png)
+
+
 
