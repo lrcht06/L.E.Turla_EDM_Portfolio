@@ -26,6 +26,9 @@ Generate Pivot Tables for key insights:
 ![screenshot](images/Turla%20(BD).png)
 
 ## STEP 5. Here are the screenshots after I started creating pivot tables and charts (see screenshot)
+![screenshot](images/Turla%20(AD).png)
+
+## Final Tables and Charts
 - ### Pivot Table setup for each analysis
 ![screenshot](images/Turla%20(PT).png)
 - ### Interactive slicers and filters
