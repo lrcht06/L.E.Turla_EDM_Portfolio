@@ -11,7 +11,7 @@ This portfolio highlights the application of data normalization and cleaning in 
 - Split tables according to Second Normal Form (2NF)
 - Implement Third Normal Form (3NF)
 - Structure data into a relational model
-## Step 3. Here is the screenshot of my output before i started creating a das (see screenshot)
+## Step 3. Here is the screenshot of my output before i started creating charts (see screenshot)
 ![screenshot](images/Turla%20(BC).png)
 ## Step 4. Here is the screenshot of my output after I started creating charts (see screenshot)
 ![screenshot](images/Turla%20(AC).png)
