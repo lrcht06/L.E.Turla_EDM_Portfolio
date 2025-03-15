@@ -1,4 +1,4 @@
-# EDM-Portfolio - Liyan Erich Turla
+# EDM_Portfolio - Liyan Erich Turla
 This portfolio features my Enterprise Data Management Lab Exercises, focusing on data cleaning, normalization, and database structuring. It highlights practical applications in managing transactional datasets, ensuring data integrity, and optimizing storage and retrieval.
 
 ## About Me
