@@ -9,4 +9,4 @@ Hi, I am Liyan Erich N. Turla. I am a first-year Bachelor of Science in Informat
 ## My Projects:
 - Midterm Lab Task 1: [Data Cleaning and Preparation Using EXCEL](https://github.com/lrcht06/lrcht06/blob/main/Midterm%20Lab%20Task%201/README.md)
 - Midterm Lab Task 2: [Data Cleaning and Preparation Using POWER QUERY](https://github.com/lrcht06/lrcht06/blob/main/Midterm%20Lab%20Task%202/README.md)
-- Midterm Lab Task 3: [Creating PIVOT TABLE and DASHBOARD](Midterm%20Lab%20Task%203/README.md)
+- Midterm Lab Task 3: [Creating PIVOT TABLE and DASHBOARD](https://github.com/lrcht06/lrcht06/blob/main/Midterm%20Lab%20Task%203/README.md)
