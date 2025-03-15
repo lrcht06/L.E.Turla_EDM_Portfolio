@@ -7,6 +7,6 @@ Hi, I am Liyan Erich N. Turla. I am a first-year Bachelor of Science in Informat
 - Senior High School: Graduated at Angeles City Science High School (ACSci) with a strand of Science, Technology, Engineering, and Mathematics (STEM)
 - Junior High School: Graduated at Telabastagan Integrated School (TIS)
 ## My Projects:
-- Midterm Lab Task 1: [Data Cleaning and Preparation Using EXCEL](https://github.com/lrcht06/lrcht06/blob/main/Midterm%20Lab%20Task%201/README.md)
+- Midterm Lab Task 1: [Data Cleaning and Preparation Using EXCEL](https://lrcht06.github.io/MLT1/)
 - Midterm Lab Task 2: [Data Cleaning and Preparation Using POWER QUERY](https://lrcht06.github.io/MLT2/)
-- Midterm Lab Task 3: [Creating PIVOT TABLE and DASHBOARD](https://github.com/lrcht06/lrcht06/blob/main/Midterm%20Lab%20Task%203/README.md)
+- Midterm Lab Task 3: [Creating PIVOT TABLE and DASHBOARD](https://lrcht06.github.io/MLT3/)
