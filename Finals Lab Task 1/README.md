@@ -31,30 +31,30 @@ This portfolio demonstrates the use of MySQL to model and query a multi-level co
 
 ## Query Statements (Screenshots)
 - ### Task 1
-![screenshot](images/Turla%20(PT).png)
+![screenshot](images/FLT1(T1).png)
 - ### Task 2
-![screenshot](images/Turla%20(SF).png)
+![screenshot](images/FLT1(T2).png)
 - ### Task 3
-![screenshot](images/Turla%20(PT).png)
+![screenshot](images/FLT1(T3).png)
 - ### Task 4
-![screenshot](images/Turla%20(SF).png)
+![screenshot](images/FLT1(T4).png)
 - ### Task 5
-![screenshot](images/Turla%20(PT).png)
+![screenshot](images/FLT1(T5).png)
 
 ## Table Structures (Screenshots)
 - ### Table 1
-![screenshot](images/Turla%20(PT).png)
+![screenshot](images/FLT1(tbl1).png)
 - ### Table 2
-![screenshot](images/Turla%20(SF).png)
+![screenshot](images/FLT1(tbl2).png)
 - ### Table 3
-![screenshot](images/Turla%20(PT).png)
+![screenshot](images/FLT1(tbl3).png)
 - ### Table 4
-![screenshot](images/Turla%20(SF).png)
+![screenshot](images/FLT1(tbl4).png)
 - ### Table 5
-![screenshot](images/Turla%20(PT).png)
+![screenshot](images/FLT1(tbl5).png)
 
 ## EER Diagram (Screenshot)
-![screenshot](images/Turla%20(M).png)
+![screenshot](images/FLT1(EER_Diagram).png)
 
 ## SQL Copy (File)
 
