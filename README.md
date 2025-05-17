@@ -26,5 +26,6 @@ Hi, I am Liyan Erich N. Turla. I am a first-year Bachelor of Science in Informat
 - Finals Lab Task 2: [Transforming ER Model to Relational Tables](https://lrcht06.github.io/FLT2/)
 - Finals Lab Task 3: [Table Manipulation](https://lrcht06.github.io/FLT3/)
 - Finals Lab Task 3-1: [Using MySQL Clause](https://lrcht06.github.io/FLT3-1/)
+- Finals Lab Task 5: [Using SQL Views, Stored Procedures, and Functions](https://lrcht06.github.io/FLT5/)
 
 ---
